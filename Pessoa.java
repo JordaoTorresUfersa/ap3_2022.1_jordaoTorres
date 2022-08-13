@@ -1,3 +1,5 @@
+ pacote  com . br . ap3 . jordaoTorres ;
+
  classe  pública Pessoa {
      nome da string  privada ;
      idade int  privada ;
