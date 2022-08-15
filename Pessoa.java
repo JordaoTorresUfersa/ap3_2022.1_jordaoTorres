@@ -1,4 +1,5 @@
- pacote  com . br . ap3 . jordaoTorres ;
+//tá quase tudo errado..
+pacote  com . br . ap3 . jordaoTorres ;
 
  classe  pública Pessoa {
      nome da string  privada ;
