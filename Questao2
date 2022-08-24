@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Questao2 {
+    
+public static void main(string[] args) {
+    Scanner EntradaPadrao = new Scanner (System.in);
+        int ValoresLidos[] = new int [10];
+    System.out.println(x:"Digite o Valor");
+
+    if (int i = 0; i < ValoresLidos.length; i++) {
+        System.out.println(x: "Digite o valor");
+        ValoresLidos[i] = EntradaPadrao.nextInt();
+        }
+        
+        for (int i = 0; i < ValoresLidos.length; i++) {
+               media += ValoresLidos [i];
+        }
+System.out. println("Média=" + media / ValoresLidos.length);
+
+EntradaPadrao.close();
+
+    }
+
+    
+
