@@ -1,29 +1,21 @@
-//tá quase tudo errado..
-pacote  com . br . ap3 . jordaoTorres ;
+public class Pessoa{
+    String nome;
+    int idade;
 
- classe  pública Pessoa {
-     nome da string  privada ;
-     idade int  privada ;
-
-    public  String  getNome (){
-        devolva  isso . nome ;
+    String getNome(){
+        return nome;
     }
-
-    public  void  setNome ( String  nome ){
-        isso . nome = nome ;
+    int getIdade(){
+        return idade;
     }
-
-    public  int  getIdade (){
-        devolva  isso . idade ;
+    void setNome(String nome){
+        this.nome = nome;
     }
-
-    public  void  setIdade ( int  idade ){
-        isso . idade = idade ;
+    void setIdade(int idade){
+        this.idade = idade;
     }
-
-    @ Substituir
-    public  String  toString () {
-        return  "Nome da Pessoa:" + this . nome + "/n" +
-                "Idade da Pessoa: " + isto . idade ;
+    @Override
+    public String toString() {
+        return nome +"\n" + idade;
     }
 }
